@@ -1,0 +1,17 @@
+Létszám időbeli alakulása:
+ S(t), I(t), R(t)
+Populáció nagysága:
+N = S(t) + I(t) + R(t), időben állandónak vesszük
+Sir modell működése:
+β: fertőzési arány (érintkezések átlagos száma személyenként egy időegység alatt)
+γ: felépülési arány
+N: népességszám
+R0: reprodukciós szám (egy személy várhatóan hány másikat fog megfertőzni)
+Egyszerűbb modelleknél, a terjedés megállításhoz a lakosság 1-1/R0 része immunissá kell váljon
+
+Átmentek:
+S - a fogékony embereket jelenti, akik még nem betegek a modellünkben, de fogékonyak arra is hogy továbbítsák
+I - fertőzöttek, akik megbetegedtek
+R - azok az emberek akik felépültek a fertőzésből (vagy beletartoznak azok is akik meghaltak)
+S-I-be hogyan jutunk el a fogékonyságból a fertőzésig; lényegében, milyen gyorsan terjed a vírus
+I-R-be milyen gyorsan épülnek fel az emberek
